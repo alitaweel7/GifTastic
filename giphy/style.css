@@ -1,0 +1,28 @@
+body {
+    font-weight: bolder;
+    background-color: lightgray;
+}
+
+.animal {
+    background-color: turquoise;
+    margin: 5px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+#animal-form {
+    text-align: right;
+}
+
+.animal:hover, .animal:focus, .animal:active {
+    color: rgba(255, 13, 194, 0.993);
+    background-color: #09aace;
+    border-color: rgba(255, 13, 194, 0.993); 
+}
+
+.image-fluid {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
